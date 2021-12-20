@@ -16,10 +16,17 @@ body {
 }
 
 #card {
-    width: 20rem;
+    width: 17.5rem;
     height: 25rem;
 
     background-color: var(--very-pale-blue);
 
     border-radius: 15px;
+}
+
+#illustration {
+    width: 100%;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
