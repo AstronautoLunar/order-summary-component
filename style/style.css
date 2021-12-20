@@ -72,8 +72,6 @@ body {
 }
 
 #input-select-price {
-    width: 90%;
-
     padding: 15px;
 
     background-color: var(--pale-blue-alpha);
@@ -99,13 +97,13 @@ body {
 
     flex: 1;
 
-    margin-left: 20px;
+    margin-left: 12.5px;
 }
 
 #details-payment > span,
 #link-change
 {
-    font-size: 11.5px;
+    font-size: 10px;
 }
 
 #type-payment {
@@ -114,4 +112,45 @@ body {
 
 #price-for-year {
     color: var(--desaturated-blue);
+}
+
+#card > button,
+#input-select-price
+{
+    width: 80%;
+}
+
+#card > button {
+
+    margin-bottom: 10px;
+}
+
+#button-cta {
+    border: none;
+    outline: none;
+    
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+
+    font-weight: 900;
+    
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 2px var(--pale-blue);
+}
+
+#button-cta,
+#button-secondary
+{
+    height: 40px;
+
+    font-size: 12.5px;
+}
+
+#button-secondary {
+    color: var(--desaturated-blue);
+
+    border: none;
+    outline: none;
+    
+    background-color: transparent;
 }
