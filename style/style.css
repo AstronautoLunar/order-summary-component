@@ -12,12 +12,16 @@ body {
 }
 
 #card {
-    width: 17.5rem;
-    height: 25rem;
+    width: 17rem;
+    /* height: 25rem; */
 
     background-color: var(--very-pale-blue);
 
     border-radius: 15px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #illustration {
@@ -35,10 +39,16 @@ body {
     align-items: center;
 }
 
+#article,
+#card
+{
+    flex-direction: column;
+}
+
 #article {
     margin: 20px 15px;
 
-    flex-direction: column;
+
 }
 
 #article > :is(h3, span) {
@@ -59,4 +69,49 @@ body {
     font-size: 0.7rem;
 
     line-height: 17.5px;
+}
+
+#input-select-price {
+    width: 90%;
+
+    padding: 15px;
+
+    background-color: var(--pale-blue-alpha);
+
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#input-select-price > img {
+    width: 35px;
+}
+
+#details-payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    flex: 1;
+
+    margin-left: 20px;
+}
+
+#details-payment > span,
+#link-change
+{
+    font-size: 11.5px;
+}
+
+#type-payment {
+    font-weight: 900;
+}
+
+#price-for-year {
+    color: var(--desaturated-blue);
 }

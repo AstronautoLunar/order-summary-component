@@ -1,6 +1,7 @@
 :root {
     /*Primary*/
     --pale-blue: hsl(225, 100%, 94%);
+    --pale-blue-alpha: rgba(224, 232, 255, 0.3);
     --bright-blue: hsl(245, 75%, 52%);
 
     /*Neutral*/
