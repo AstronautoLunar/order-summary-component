@@ -1,0 +1,29 @@
+:root {
+    /*Primary*/
+    --pale-blue: hsl(225, 100%, 94%);
+    --pale-blue-alpha: rgba(224, 232, 255, 0.3);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    /*Neutral*/
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+.attribution { 
+    font-size: 11px; 
+
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: "Red Hat Display", Helvetica, sans-serif;
+}
