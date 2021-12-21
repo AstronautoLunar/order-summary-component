@@ -46,9 +46,7 @@ body {
 }
 
 #article {
-    margin: 20px 15px;
-
-
+    margin: 20px 25px;
 }
 
 #article > :is(h3, span) {
